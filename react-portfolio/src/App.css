@@ -1,0 +1,208 @@
+.App {
+  text-align: center;
+}
+
+* {
+  font-family: 'Lobster Two', cursive;
+}
+
+body {
+  color: white;
+  /* padding: 10px;
+  margin: 10px; */
+  margin-bottom: 10px;
+  background-image: url("./Sleek2.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+/*sets the body style and adds an image to the background*/
+.main-header {
+  border: 10px solid transparent;
+  border-width: 5px;
+  /* padding-top: 20px;    */
+  /* padding-right: 30px; */
+  padding-bottom: 10px;
+  /* padding-left: 80px; */
+
+}
+
+
+.amy {
+  color: white;
+  font-size: 70px;
+  display: flex;
+  margin: 15px;
+}
+/* this set the size and color of my header */
+
+.nav-link {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: lightyellow;
+  font-size: 35px;
+  display: flex;
+  flex-direction: row-reverse; 
+  justify-content: flex-start;
+}
+/* styles and positions my navigation*/
+
+.nav-link:hover {
+  color: purple;
+}
+/*changes navigation color when hover over */
+  
+.nav-link:active {
+    color: lightblue;
+}
+
+/*changes the navigation link when it is clicked */
+.Content {
+  display: flex;
+  padding-bottom: 5px;
+  padding-right: 30px;
+  padding-left: 50px;
+  padding-top: 0px;
+}
+
+/* sets up my flexbox for my biography */
+.Biography {
+  display: flex;
+  padding: 2rem;
+  border: 10px solid transparent;
+}
+
+/* sets the size and color of my Biography heading */
+.Biography h2 {
+  font-size: 50px;
+  color: lightblue;
+  text-align: left;
+}
+
+/* sets the size of my Biography paragrap */
+.Biography p {
+  font-size: 30px;
+  padding: 1rem;
+}
+
+/*sizes my heashot */
+.amyshead img {
+  object-fit: contain;
+}
+
+/*createst the flexbox for my Portfolio information */
+.Portfolio {
+  border: 5px solid transparent;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 200px;
+  padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Portfolio h2 {
+  font-size: 50px;
+  padding-bottom: 20px;
+  text-align: left;
+  color: lightblue;
+}
+
+/* creates the size for my portfolio information */
+.Portfolio p {
+  font-size: 25px;
+}
+
+/* creates the container for portfolio photos */
+.projectcontainer {
+  display: flex;
+  flex: 50%;
+  max-width: 90%;
+  margin-top: 80px;
+  position: relative;
+}
+
+/* Resized portfolio photos to fit on the page*/
+.Portfolio img {
+ width: 65%;
+ /* border: 5px solid transparent; */
+ padding: 5px;
+}
+
+.overlay {
+  /* font-size: 30px; */
+  color: lightblue;
+  margin: 6px;
+}
+
+/* zoom effect when mouse is over porfolio photos */
+.projectimage:hover {
+  zoom: 5;
+}
+
+/*creates the flexbox for my Contact information*/
+.ContactMe {
+
+  text-align: center;
+  padding: 60px;
+  border: 5px solid transparent;
+  /* background-color: transparent; */
+  font-size: 35px;
+  color: white;
+}
+
+/* sets the color and size of my contact information */
+.ContactMe .contactinfo {
+  font-size: 35px;
+  color: white;
+  display: inline-block;
+}
+
+.information {
+  font-size: 20px;
+  color: cornflowerblue
+}
+
+/*changes color when the mouse hovers over */
+.contactinfo:hover {
+    color: lightblue;
+}
+
+/*changes purple when clicked */
+.contactinfo:active {
+  color: purple;
+}
+
+/* creates the layout for my footer and context within */
+footer h5 {
+  text-align: center;
+  /* background-color: darkgrey; */
+  font-size: 30px;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  /* Use flex-direction to stack the navbar, sidebar, and body */
+  main,
+  nav {
+    flex-direction: column;
+  }
+  #ContactMe, header {
+    background-color: purple;
+    text-align: center;
+  }
+ }
+
+ @media screen and (max-width: 480px) {
+  /* Use flex-direction to stack the navbar, sidebar, and body */
+  main,
+  nav {
+    display: flex;
+    flex-direction: center;
+  }
+  #ContactMe, header {
+    background-color: purple;
+    text-align: center;
+  }
+ }
