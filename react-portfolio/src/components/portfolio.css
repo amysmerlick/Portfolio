@@ -85,7 +85,8 @@
 
 .Portfolio .projectcontainer .project-card .info-container .project-name-wrapper {
 
-    font-size: 18px;
+    font-size: 35px;
+    font-weight: bold;
     text-align: left;
 }
 
