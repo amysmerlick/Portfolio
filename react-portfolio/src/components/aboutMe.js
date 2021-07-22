@@ -1,7 +1,7 @@
 const AboutMe = () => {
 
     return (
-        <section id="Biography" class="Biography container-fluid">
+        <section id="Biography" className="Biography container-fluid">
             <h2><u>Biography</u></h2>
             <p> I reside in Central PA with my husband and 3 children. I attended College at Bloomsburg University in
                 accounting. After having children I wanted a career that was flexible. I have been as a Realtor for over
@@ -12,7 +12,7 @@ const AboutMe = () => {
                 numerous avenues to explore , within the coding world, and let my creativity soar. Ultimately, I hope to
                 possess the skills to work remotely when my husband retires. His dream is to travel the world by sea.
             </p>
-            <div class="amyshead">
+            <div className="amyshead">
                 <img src="./Images/Headshot.jpg" height="200" alt="headshot" />
             </div>
         </section>

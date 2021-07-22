@@ -90,56 +90,6 @@ body {
   object-fit: contain;
 }
 
-/*createst the flexbox for my Portfolio information */
-.Portfolio {
-  border: 5px solid transparent;
-  padding-top: 20px;
-  padding-right: 30px;
-  padding-bottom: 200px;
-  padding-left: 80px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.Portfolio h2 {
-  font-size: 50px;
-  padding-bottom: 20px;
-  text-align: left;
-  color: lightblue;
-}
-
-/* creates the size for my portfolio information */
-.Portfolio p {
-  font-size: 25px;
-}
-
-/* creates the container for portfolio photos */
-.projectcontainer {
-  display: flex;
-  flex: 50%;
-  max-width: 90%;
-  margin-top: 80px;
-  position: relative;
-}
-
-/* Resized portfolio photos to fit on the page*/
-.Portfolio img {
- width: 65%;
- /* border: 5px solid transparent; */
- padding: 5px;
-}
-
-.overlay {
-  /* font-size: 30px; */
-  color: lightblue;
-  margin: 6px;
-}
-
-/* zoom effect when mouse is over porfolio photos */
-.projectimage:hover {
-  zoom: 5;
-}
 
 /*creates the flexbox for my Contact information*/
 .ContactMe {

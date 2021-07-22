@@ -1,6 +1,7 @@
 import AboutMe from './components/aboutMe.js'
 import ContactMe from './components/contactMe.js'
 import Portfolio from './components/portfolio.js'
+import Footer from './components/footer.js'
 
 import { useState } from 'react'
 
@@ -9,7 +10,7 @@ import './reset.css'
 
 function App() {
 
-  const [visibleSection, setVisibleSection ] = useState(0)
+  const [visibleSection, setVisibleSection ] = useState(1)
 
   let linkClicked = (sectionIndex) => {
 
@@ -19,8 +20,8 @@ function App() {
     <div className="App">
 
       <main>
-        <header class="main-header">
-            <h1 class="amy font-effect-shadow-multiple"> Amy Smerlick Student Portfolio</h1>
+        <header className="main-header">
+            <h1 className="amy font-effect-shadow-multiple"> Amy Smerlick Student Portfolio</h1>
             <nav>
                 <ul>
                     <li>
@@ -48,6 +49,8 @@ function App() {
           {visibleSection === 2 && <ContactMe />}
 
         </div>
+
+        <Footer />
       
     </div>
   );
