@@ -1,7 +1,9 @@
 .footer-wrapper {
 
     width: 100%;
-    background-color: rgb(70, 70, 70);
+    background-color: transparent(70, 70, 70);
+    position: sticky;
+    bottom: 0;
     
     display: flex;
     flex-direction: row;

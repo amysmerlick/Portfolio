@@ -1,7 +1,13 @@
+/* * {
+    background-image: url("../Sleek2.jpg");
+} */
+
 .Portfolio {
 
     display: flex;
     flex-direction: column;
+    font-family: 'Lobster Two', cursive;
+    color: white;
 }
 
 .Portfolio > * {
@@ -12,15 +18,15 @@
 }
 
 .Portfolio h2 {
-    font-size: 50px;
+    font-size: 80px;
     padding-bottom: 20px;
     text-align: left;
-    color: lightblue;
+    color: whtie;
   }
   
   /* creates the size for my portfolio information */
   .Portfolio p {
-    font-size: 25px;
+    font-size: 55px;
   }
 
 .Portfolio .projectcontainer {
@@ -45,7 +51,7 @@
     height: 250px;
     overflow: hidden;
     position: relative;
-    background-color: royalblue;
+    /* background-color: royalblue; */
 }
 
 .Portfolio .projectcontainer .project-card img {

@@ -11,7 +11,7 @@ body {
   /* padding: 10px;
   margin: 10px; */
   margin-bottom: 10px;
-  background-image: url("./blackandwhite.jpg");
+  background-image: url("./3.jpg");
   background-size: cover;
   background-position: center;
 
@@ -30,17 +30,15 @@ body {
 
 .amy {
   color: white;
-  font-size: 70px;
+  font-size: 100px;
   display: flex;
   margin: 15px;
 }
 /* this set the size and color of my header */
 
 .nav-link {
-  margin-top: 10px;
-  margin-left: 10px;
   color: lightyellow;
-  font-size: 35px;
+  font-size: 40px;
   display: flex;
   flex-direction: row-reverse; 
   justify-content: flex-start;
@@ -66,24 +64,24 @@ body {
 }
 
 /* sets up my flexbox for my biography */
-.Biography {
+/* .Biography {
   display: flex;
   padding: 2rem;
   border: 10px solid transparent;
-}
+} */
 
 /* sets the size and color of my Biography heading */
-.Biography h2 {
+/* .Biography h2 {
   font-size: 50px;
   color: lightblue;
   text-align: left;
-}
+} */
 
 /* sets the size of my Biography paragrap */
-.Biography p {
+/* .Biography p {
   font-size: 30px;
   padding: 1rem;
-}
+} */
 
 /*sizes my heashot */
 .amyshead img {
@@ -92,12 +90,12 @@ body {
 
 
 /*creates the flexbox for my Contact information*/
+
 .ContactMe {
 
   text-align: center;
   padding: 60px;
   border: 5px solid transparent;
-  /* background-color: transparent; */
   font-size: 35px;
   color: white;
 }
@@ -110,7 +108,7 @@ body {
 }
 
 .information {
-  font-size: 20px;
+  font-size: 40px;
   color: cornflowerblue
 }
 
@@ -119,18 +117,17 @@ body {
     color: lightblue;
 }
 
-/*changes purple when clicked */
 .contactinfo:active {
   color: purple;
 }
 
 /* creates the layout for my footer and context within */
-footer h5 {
+/* footer h5 {
   text-align: center;
   /* background-color: darkgrey; */
-  font-size: 30px;
+  /* font-size: 30px;
   color: white;
-}
+} */ 
 
 @media screen and (max-width: 768px) {
   /* Use flex-direction to stack the navbar, sidebar, and body */

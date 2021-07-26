@@ -1,15 +1,18 @@
+import "./contactMe.css";
+import React from 'react';
+
 const ContactMe = () => {
 
     return (
         <section id="ContactMe" class="ContactMe container-fluid">
             <h4>Contact Me</h4>
             <p className="information">Email: amy@directinfusion.net</p>
-            <p className="information">Phone: 570-259-4230</p>
+            <p className="information">Phone: 570-259-0000</p>
             <a className="contactinfo" href="https://www.linkedin.com/in/amysmerlick/">LinkedIn</a>
 
             <a className="contactinfo" href="https://github.com/amysmerlick">GitHub</a>
 
-            {/*<form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+            {/* <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
                 <div className="form-group">
                     <label htmlFor="name">Name</label>
                     <input type="text" className="form-control" />
@@ -23,12 +26,11 @@ const ContactMe = () => {
                     <textarea className="form-control" rows="5"></textarea>
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>
-    </form>*/}
+            </form> */}
         </section>
 
         
     )
-
 }
 
 export default ContactMe
