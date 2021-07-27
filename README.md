@@ -13,6 +13,9 @@ This portfolio page is an updated version of my professional porfolio using Reac
   
   # Installation
   In your terminal you will run 'npm start'. Once you have your work deployed and your source is set to GH-Pages in GitHub, you will 'npm run deploy' where the application will build your app.  
+  
+  Visit the link Below:
+  ![My Portfolio](https://amysmerlick.github.io/React-Portfolio/)
 
 
 
