@@ -3,7 +3,7 @@
   # 🌺Note-Taker🌺
 
   # Description
-  ### For class, we are to create our own server-side APIs using the Express.js framework using starter code provided. Express is the most widely used Node.js server framework. This app will be used by allow someone to oragnize their thoughts by creating notes along with descriptions.
+
 
   
   # 📚📚 Table of Contents📚📚
@@ -14,16 +14,16 @@
   * [License](#license)
   
   # Installation
-Install Express and UUID
+  In your terminal you will run 'npm start'. Once you have your work deployed and your source is set to GH-Pages in GitHub, you will 'npm run deploy' where the application will build and 
 
 
 
 
   # Usage
-![NoteTaker 1](https://user-images.githubusercontent.com/77814900/118194268-1ab13280-b417-11eb-8c3e-a602ff5548d9.png)
-![NoteTaker 2](https://user-images.githubusercontent.com/77814900/118194346-3ae0f180-b417-11eb-80d6-238038b3fd33.png)
-![NoteTaker 3](https://user-images.githubusercontent.com/77814900/118194383-4a603a80-b417-11eb-8a24-def57239a972.png)
-![NoteTaker 4](https://user-images.githubusercontent.com/77814900/118194409-53510c00-b417-11eb-9601-9dae14ba996b.png)
+![Portfolio](https://user-images.githubusercontent.com/77814900/127209156-5bbab2fd-396e-465e-9be6-a89fdba27980.png)
+![contactMe](https://user-images.githubusercontent.com/77814900/127212237-ee72eaf9-a549-41d5-9121-3604c8c16a68.png)
+![Resume](https://user-images.githubusercontent.com/77814900/127212416-6732c61c-60bf-46ac-beac-af1c217823a7.png)
+![Link and Logo](https://user-images.githubusercontent.com/77814900/127212612-7c831a1d-2460-4cdf-9461-3da003751928.png)
 
   # Contributors
   Amy Smerlick
