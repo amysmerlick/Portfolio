@@ -12,7 +12,7 @@ This portfolio page is an updated version of my professional porfolio using Reac
   * [License](#license)
   
   # Installation
-  In your terminal you will run 'npm start'. Once you have your work deployed and your source is set to GH-Pages in GitHub, you will 'npm run deploy' where the application will build and 
+  In your terminal you will run 'npm start'. Once you have your work deployed and your source is set to GH-Pages in GitHub, you will 'npm run deploy' where the application will build your app.  
 
 
 
