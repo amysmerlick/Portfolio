@@ -1,9 +1,7 @@
-# Portfolio
-
-  # 🌺Note-Taker🌺
+# 🌺Portfolio🌺
 
   # Description
-
+This portfolio page is an updated version of my professional porfolio using React.JS along. This project used the "create-react-app" for the starter folders that were needed. This app is deployed to GitHub pages. My portfolio showcases a few pieces of work that I have completed throughout the course. 
 
   
   # 📚📚 Table of Contents📚📚
