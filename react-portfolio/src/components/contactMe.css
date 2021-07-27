@@ -1,0 +1,56 @@
+/* sets the color and size of my contact information */
+
+.ContactMe {
+
+    text-align: center;
+    padding: 60px;
+    border: 5px solid transparent;
+    font-size: 35px;
+    color: white;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+
+.ContactMe .contactinfo {
+    font-size: 35px;
+    color: white;
+    display: inline-block;
+  }
+  
+  .information {
+    font-size: 40px;
+    color: cornflowerblue
+  }
+  
+  /*changes color when the mouse hovers over */
+  .contactinfo:hover {
+      color: lightblue;
+  }
+  
+  .contactinfo:active {
+    color: purple;
+  }
+  #contact-form {
+
+    width: 50%;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#contact-form .form-group {
+
+ 
+    margin-top: 20px;
+}
+
+.my-info {
+    margin-top: 50px;
+}

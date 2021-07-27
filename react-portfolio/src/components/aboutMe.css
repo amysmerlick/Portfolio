@@ -1,15 +1,4 @@
-.Biography {
-    /* background-image: url("../white.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    color: black; */
-    font-family: 'Lobster Two', cursive;
-    display: flex;
-    padding: 2rem;
-    border: 10px solid transparent;
-    font-size: 50px;
-    color: white;
-}
+
 
 p {
     font-size: 45px;
@@ -19,4 +8,37 @@ p {
 .headshot {
     border-radius: 50%;
     border: 5px solid black;
+}
+
+@media screen and (min-width: 769px) {
+    
+    .Biography {
+        /* background-image: url("../white.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        color: black; */
+        font-family: 'Lobster Two', cursive;
+        display: flex;
+        padding: 2rem;
+        border: 10px solid transparent;
+        font-size: 50px;
+        color: white;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .Biography {
+
+        display: flex;
+        flex-flow: column-reverse;
+
+    }
+
+    .Biography > * {
+
+        flex: 0 0 auto;
+    }
+    
 }

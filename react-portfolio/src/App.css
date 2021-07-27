@@ -1,5 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+
+  min-height: 100%;
+  width: 100%;
+
+  position: absolute;
+
+  display: flex;
+  flex-flow: row;
+  align-items: stretch;
+  justify-content: flex-start;
+
+
+}
+
 .App {
+  flex: 1 1 auto;
   text-align: center;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: stretch;
+
+
+
+
+}
+
+.App > * {
+
+  flex: 0 0 auto;
+
+
+}
+
+#Content {
+  flex: 1 1 auto !important;
+
 }
 
 * {
@@ -42,6 +86,7 @@ body {
   display: flex;
   flex-direction: row-reverse; 
   justify-content: flex-start;
+  cursor: pointer;
 }
 /* styles and positions my navigation*/
 
@@ -50,7 +95,7 @@ body {
 }
 /*changes navigation color when hover over */
   
-.nav-link:active {
+.nav-link.active {
     color: lightblue;
 }
 
@@ -91,35 +136,9 @@ body {
 
 /*creates the flexbox for my Contact information*/
 
-.ContactMe {
 
-  text-align: center;
-  padding: 60px;
-  border: 5px solid transparent;
-  font-size: 35px;
-  color: white;
-}
 
-/* sets the color and size of my contact information */
-.ContactMe .contactinfo {
-  font-size: 35px;
-  color: white;
-  display: inline-block;
-}
 
-.information {
-  font-size: 40px;
-  color: cornflowerblue
-}
-
-/*changes color when the mouse hovers over */
-.contactinfo:hover {
-    color: lightblue;
-}
-
-.contactinfo:active {
-  color: purple;
-}
 
 /* creates the layout for my footer and context within */
 /* footer h5 {
@@ -143,7 +162,7 @@ body {
 
  @media screen and (max-width: 480px) {
   /* Use flex-direction to stack the navbar, sidebar, and body */
-  main,
+main,
   nav {
     display: flex;
     flex-direction: center;
